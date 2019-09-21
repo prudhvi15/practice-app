@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>APP</title>
+</head>
+<body>
+  <!-- <div class="container-fluid">
+       <div class="row" style=" position: relative;  left:40%;">
+           <h1>Maitre D</h1> 
+        </div>
+        <br><br><br>
+       <div style="position: absolute; left:30%">
+            Total: <input id="total" type="text" name="Total">
+       </div>
+        <br><br>
+        <div style="position: relative;left:30%">
+        Tip: $ <div id="tip"></div>
+         </div>
+        <div style="position: relative;left:40%;top:20%">
+            Rate: <input id="rate" type="text" name="rate">
+        </div>
+    
+        <div style="position: relative;left:30%">
+        Tax: $ <div id="tax"></div>
+        </div>
+    
+        <br>
+        <div style="position: relative;left:30%">
+        Grand Total: $ <div id="grandtotal"> </div>
+        </div>
+        <br>
+        <div style="position: relative;left:30%">
+            <button id="btn" onclick="calculate()">calculate</buton>
+        </div>
+   </div> -->
+   <div class="row" style=" position: relative;  left:40%;">
+    <h1>Maitre D</h1> 
+ </div>
+ <br>
+   <table style="position:relative; left:37%">
+       <tr>
+           <td colspan="2">Total: <input id="total" type="text" size="23"></td>
+       </tr>
+       <tr>
+           <td>Tip: $<span id="tip"></span></td>
+           <td>Rate: <input id="rate" type="text" size="5"></td>
+       </tr>
+       <tr>
+           <td>Tax: $<span id="tax"></span></td>
+       </tr>
+       <tr>
+           <td>Grand Total: $<span id="grandtotal"></span></td>
+       </tr>
+       <tr>
+           <td>
+            <button id="btn" onclick="calculate()">calculate</buton>
+           </td>
+       </tr>
+   </table>
+   <script src="app.js"></script>
+</body>
+</html>
